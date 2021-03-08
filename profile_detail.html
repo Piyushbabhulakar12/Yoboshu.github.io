@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Profile Detail</title>
+    <style>
+      body
+      {
+        background: #F5F8FF;
+        font-family: 'Poppins', sans-serif;
+      }
+      .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #111111;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111111;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 1500px) {
+  .navbar_boot
+  {
+    display: none;
+  }
+  .font_text
+  {
+    display: none;
+  }
+  .boo_btnside
+  {
+     display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar
+  {
+    display: none;
+  }
+  .navbar_boot
+  {
+    display: block;
+  }
+ 
+  .font_text
+  {
+      display: block;
+  }
+
+   .boo_btnside
+  {
+    display: block;
+  }
+   .alltopdiv
+   {
+    margin-top: 0px;
+   }
+   .upper_btn
+   {
+    display: none;
+   }
+   .textmarg
+   {
+    height: 330px; overflow: auto;
+    margin-top: -50px;
+    scrollbar-width: none;
+   }
+   ::-webkit-scrollbar {
+    display: none;
+}
+.text_user
+{
+  font-size: 19px;
+}
+.text_year
+{
+  font-size: 17px;
+}
+.text_price
+{
+   font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 400px)
+{
+  .bottom_bicon
+  {
+    font-size: 14px;
+    margin-top: -100px;
+  }
+}
+
+</style>
+  </head>
+  <body>
+   
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+      <div class="container  alltopdiv">
+        <div class="row">
+          <div class="col-md-6 mt-4 ">
+            
+            <div class="sticky-top">
+              
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/1276518/pexels-photo-1276518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/1410378/pexels-photo-1410378.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/1420021/pexels-photo-1420021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<br>
+<button class="btn btn-primary rounded-pill mt-2 upper_btn" style="width: 160px;">Join Bootcamp</button>&nbsp&nbsp
+<button class="btn btn-primary rounded-pill mt-2 upper_btn" style="width: 120px;">Book Now</button>
+
+
+            </div>
+
+
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="textmarg" style="background: #fff; border-radius: 25px 25px 0 0; border: none;">
+              
+
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-6">
+                  <h3 style="margin-top: 15px; color: #4699f8;" class="text_user">Suraj Kumar</h3>
+                  <h5 style="font-size: 15px;"><span style="color: #4699f8; font-size: 25px;" class="text_year">5+</span> Year of Experience</h5>
+                </div>
+                <div class="col-md-6 col-6">
+                  <h4 style="text-align: right; margin-top: 15px; color: #4699f8;" class="text_price">$150</h4>
+                  <h6 style="text-align: right; font-size: 12px; margin-top: -5px;">Per Session</h6>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+
+            <h5 style="margin-left: 15px;">About Me</h5>
+            <p style="padding: 15px; font-size: 12px; margin-top: -10px;">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.Lorem Ipsum is simply dummy
+ text of the printing and typesetting industry.Lorem Ipsum is
+ simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.Lorem Ipsum is simply dummy
+ text of the printing and typesetting industry.Lorem Ipsum is
+ simply dummy text of the printing and typesetting industry.</p>
+
+ <hr>
+
+<h5 style="margin-left: 15px;">My Expertise</h5>
+ 
+<div style="padding: 10px; margin-left: 15px;">
+ <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">GYM</button>
+  <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">YOGA</button>
+   <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">BOXING</button>
+    <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">TAEKWONDO</button>
+     <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">SPORT TRAINER</button>
+</div>
+
+
+<hr>
+
+<h5 style="margin-left: 15px;">Medical Condition Experience</h5>
+
+<h6 class="mt-3" style="font-size: 14px; margin-left: 15px; color: gray;">Injury | Smoking Addiction | Anxiety | Drinking Addition | Lung Disease</h6>
+
+ <hr>
+
+<h5 style="margin-left: 15px;">My Location</h5>
+
+<h6 class="mt-3" style="font-size: 14px; margin-left: 15px; color: gray;"><i class="fas fa-map-marker-alt"></i>  Amritsar , Punjab</h6>
+
+ <hr>
+
+<h5 style="margin-left: 15px;">Mode of Training</h5>
+
+<h6 class="mt-3" style="font-size: 14px; margin-left: 15px; color: gray;"><i class="fas fa-map-marker-alt"></i> &nbsp Online (Google Meet)</h6>
+<h6 class="mt-3" style="font-size: 14px; margin-left: 15px; color: gray;"><i class="fas fa-home"></i> &nbsp In Home</h6>
+<h6 class="mt-3" style="font-size: 14px; margin-left: 15px; color: gray;"><i class="fas fa-tree"></i> &nbsp Outdoors</h6>
+
+ <hr>
+
+<h5 style="margin-left: 15px;">1 - on - 1 Pricing</h5>
+
+
+<div class="container-fluid mt-4">
+  <div class="card">
+  <h5 class="card-header text-center" style="background: #fff;">Started Plan</h5>
+  <div class="card-body" style="background: #F5F8FF;">
+    <h5 class="card-title text-center">Buy 5 Session</h5>
+    <h6 class="card-text text-center">Rs. <span style="color: #00C2FF; font-size: 29px;">150</span> / Session</h6>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid mt-4">
+  <div class="card">
+  <h5 class="card-header text-center" style="background: #fff;">Popular Plan</h5>
+  <div class="card-body" style="background: #F5F8FF;">
+    <h5 class="card-title text-center">Buy 12 Session</h5>
+    <h6 class="card-text text-center">Rs. <span style="color: #00C2FF; font-size: 29px;">138</span> / Session</h6>
+    <h5 class="card-text text-center">Save 8 %</h5>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid mt-4">
+  <div class="card">
+  <h5 class="card-header text-center" style="background: #fff;">Best Value Plan</h5>
+  <div class="card-body" style="background: #F5F8FF;">
+    <h5 class="card-title text-center">Buy 24 Session</h5>
+    <h6 class="card-text text-center">Rs. <span style="color: #00C2FF; font-size: 29px;">127</span> / Session</h6>
+    <h5 class="card-text text-center">Save 15 %</h5>
+  </div>
+</div>
+</div>
+
+<h6 style="font-size: 14px; margin-left: 15px;" class="mt-4">Note : Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.Lorem Ipsum is simply dummy
+ text of the printing and typesetting industry.</h6>
+
+ <hr>
+
+<h5 style="margin-left: 15px;">Availability</h5>
+
+<div style="padding: 10px; margin-left: 15px;">
+ <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">6:00 AM To 7:00 AM</button>
+  <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">10:30 AM To 11:30 AM</button>
+   <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">11:00 AM To 12:00 AM</button>
+    <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">12:28 PM To 1:28 PM</button>
+     <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">1:00 PM To 2:00 PM</button>
+      <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">2:30 PM To 3:30 PM</button>
+</div>
+
+
+<hr>
+
+<h5 style="margin-left: 15px;">Training Days</h5>
+
+
+<h6 class="mt-3" style="font-size:15px; color: gray; margin-left: 15px;">Monday | Wednesday | Thursday | Friday | Saturday | Sunday</h6>
+
+
+<hr>
+
+<h5 style="margin-left: 15px;">Languages</h5>
+
+<div style="padding: 10px; margin-left: 15px;">
+  <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">Hindi</button>
+  <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">English</button>
+   <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">Punjabi</button>
+</div>
+
+<hr>
+
+<h5 style="margin-left: 15px;">Education Qualification</h5>
+
+<h6 class="mt-3" style="font-size:15px; color: gray; margin-left: 15px;">B.Sc in Spot and Exercise Science</h6>
+
+<hr>
+
+<h5 style="margin-left: 15px;">People I Love training with</h5>
+
+<div style="padding: 10px; margin-left: 15px;">
+  <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">ACTORS</button>
+  <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">MEN</button>
+   <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">WOMAN</button>
+ <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">BEGINNERS</button>
+  <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">MODEL</button>
+   <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">YOUTH</button>
+    <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">OVERWEIGHT</button>
+     <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">BODYBUILDERS</button>
+      <button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">OVERWEIGHT / OBESE</button>
+<button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">MILITARY</button>
+<button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">SPECIALLY ABLE</button>
+<button class="btn btn-outline-primary rounded-pill mt-2 btn-sm">BRIDE TO BE</button>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+<div class="btn-group fixed-bottom">
+  <a href="#" class="btn btn-light boo_btnside">Join Boot</a>
+  <a href="#" class="btn btn-primary boo_btnside">Book Now</a>
+</div>
+
+
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
